@@ -17,6 +17,7 @@ input {
   border-radius: 5px;
   border-color: bisque;
   padding-block: 5px;
+  font-size: 25px;
   color: yellow; /* Setting default text color to yellow */
 }
 

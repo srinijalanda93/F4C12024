@@ -44,7 +44,7 @@ const App = () => {
   };
 
   return (
-    <div class='main-form'>
+    <div>
       <h2>Sign Up</h2>
       
         <label>Email:</label>
@@ -56,8 +56,8 @@ const App = () => {
         />
       {!emailValid && email.trim() !== '' && <p style={{ color: 'red' }}>Invalid email address</p>}
 
-     
-      <br></br>
+     <br/>
+  
         <label>Password:</label>
         <input
           type="password"
@@ -67,7 +67,7 @@ const App = () => {
         />
         {!passwordValid && <p style={{ color: 'red' }}>Password must be at least 8 characters long</p>}
      
-        <br></br>
+  
         <label>Confirm Password:</label>
         <input
           type="password"
